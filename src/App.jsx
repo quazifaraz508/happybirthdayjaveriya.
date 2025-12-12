@@ -594,7 +594,7 @@ function App() {
               onExpand={setExpandedImage}
             />
             <SwipeableGalleryItem
-              images={[image13, image12, image10, , image18]}
+              images={[image13, image12, image10 , image18]}
               title="Pure Joy"
               text="Laughter is the soundtrack of our lives."
               onExpand={setExpandedImage}

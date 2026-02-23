@@ -17,6 +17,7 @@ import image18 from './assets/images/image18.jpeg';
 
 import image19 from './assets/images/image19.jpeg';
 import image20 from './assets/images/image20.jpeg';
+import image21 from './assets/images/image21.jpeg';
 
 import group_0 from './assets/images/group_0.jpeg';
 import group_1 from './assets/images/group_1.jpeg';
@@ -598,7 +599,7 @@ function App() {
             />
             {/* images */}
             <SwipeableGalleryItem
-              images={[image20,image13, image12, image10 , image18, image19]} 
+              images={[image20,image13, image12, image10 , image18, image19, image21]} 
               title="Pure Joy"
               text="Laughter is the soundtrack of our lives."
               onExpand={setExpandedImage}

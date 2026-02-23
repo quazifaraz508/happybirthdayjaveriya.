@@ -13,7 +13,11 @@ import image9 from './assets/images/image9.png';
 import image111 from './assets/images/image111.png';
 import image12 from './assets/images/image12.jpeg';
 import image13 from './assets/images/image_metro.jpeg';
-import image18 from './assets/images/image18.jpeg';
+import image18 from './assets/images/image18.jpeg'
+  
+  
+import image19 from './assets/images/image19.jpeg';
+import image20 from './assets/images/image20.jpeg';;
 
 import group_0 from './assets/images/group_0.jpeg';
 import group_1 from './assets/images/group_1.jpeg';
@@ -594,7 +598,7 @@ function App() {
               onExpand={setExpandedImage}
             />
             <SwipeableGalleryItem
-              images={[image13, image12, image10 , image18]}
+              images={[ image20, image13, image12, image10 , image18 ,image19]}
               title="Pure Joy"
               text="Laughter is the soundtrack of our lives."
               onExpand={setExpandedImage}
